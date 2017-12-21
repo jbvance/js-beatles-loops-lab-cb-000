@@ -7,7 +7,7 @@ var theBeatlesPlay = (musicians, instruments) => {
 };
 
 var johnLennonFacts = array => {
-	new_array = [];
+	var new_array = [];
 	array.forEach(el => new_array.push(el + '!!!'));
 	return new_array;
 };
