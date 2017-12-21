@@ -5,3 +5,18 @@ var theBeatlesPlay = (musicians, instruments) => {
 	}
 	return array;
 };
+
+var johnLennonFacts = (array) => {
+  new_array = [];
+  array.forEach(el => new_array.push(el + "!!!"))
+  return new_array;
+}
+
+var iLoveTheBeatles = (num) => {
+  array = [];
+  do {
+    array.push("I love the Beatles!");
+    num++;
+  } while(num  < 15)
+  
+}
